@@ -1,5 +1,5 @@
-const app = require("./src/app/app");
-const appConstants = require("./src/app/constants/app.constants");
+const app = require("./src/app");
+const appConstants = require("./src/constants/app.constants");
 
 const port = appConstants.PROT;
 

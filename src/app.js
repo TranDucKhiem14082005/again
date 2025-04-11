@@ -8,6 +8,6 @@ app.get('/login', (req, res) => {
     res.json({messsage: 'This is information of client!'});
 })
 
-
+app.use('/v1/auth', require('./app/v1/routes')); // Use the auth routes
 
 module.exports = app; // Export the app for testing purposes
